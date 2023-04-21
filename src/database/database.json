@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "id": "user@gmail.com",
-      "name": "user",
+      "id": "user",
+      "name": "user@gmail.com",
       "password": "password"
     }
   ],
