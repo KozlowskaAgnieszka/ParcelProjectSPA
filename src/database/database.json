@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "user@gmail.com",
+      "name": "user",
+      "password": "password"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "type": "room",
+      "name": "Deluxe single room with sea view",
+      "beds": 1,
+      "guests": 1,
+      "price": 170,
+      "photo": "photo1",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+      "id": 2,
+      "type": "room",
+      "name": "Mountain-view room with balcony",
+      "beds": 1,
+      "guests": 2,
+      "price": 240,
+      "photo": "photo2",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+      "id": 3,
+      "type": "room",
+      "name": "Superior room with mountain view",
+      "beds": 2,
+      "guests": 3,
+      "price": 290,
+      "photo": "photo3",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+      "id": 4,
+      "type": "room",
+      "name": "Monastery view king bed",
+      "beds": 1,
+      "guests": 2,
+      "price": 340,
+      "photo": "photo4",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+      "id": 5,
+      "type": "room",
+      "name": "Apartment with astonishing view",
+      "beds": 3,
+      "guests": 4,
+      "price": 450,
+      "photo": "photo5",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    },
+    {
+      "id": 6,
+      "type": "room",
+      "name": "Premium sea view room",
+      "beds": 3,
+      "guests": 5,
+      "price": 280,
+      "photo": "photo6",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "type": "treatment",
+      "name": "Masaż rozgrzanym monitorem",
+      "area": "back",
+      "time": 30,
+      "price": 80,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 2,
+      "type": "treatment",
+      "name": "Biczowanie kablem od myszy",
+      "area": "back",
+      "time": 20,
+      "price": 70,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 3,
+      "type": "treatment",
+      "name": "Peeling odłamkami płyty CD",
+      "area": "face",
+      "time": 15,
+      "price": 50,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 4,
+      "type": "treatment",
+      "name": "Pedicure woskiem z USB",
+      "area": "legs",
+      "time": 25,
+      "price": 100,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 5,
+      "type": "treatment",
+      "name": "Manicure analogowo-cyfrowy",
+      "area": "hands",
+      "time": 45,
+      "price": 150,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 6,
+      "type": "treatment",
+      "name": "Kąpiel w gorącej kawie",
+      "area": "body",
+      "time": 60,
+      "price": 200,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+      "id": 7,
+      "type": "treatment",
+      "name": "Depilacja dyskiem twardym",
+      "area": "body",
+      "time": 45,
+      "price": 120,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+  ]
+}

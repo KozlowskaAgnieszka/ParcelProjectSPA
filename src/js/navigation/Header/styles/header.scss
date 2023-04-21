@@ -1,0 +1,185 @@
+$headers-letter-spacing: 0.09em;
+$shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+$btn-hover-background: rgba(163, 163, 163, 0.2);
+$btn-hover-box-shadow: 0 0 8px rgba(163, 163, 163, 0.7);
+$nav-color-gradient: to bottom, rgba(45, 45, 45, 0.75), rgba(45, 45, 45, 0.6);
+
+.header {
+  width: 100%;
+
+  &_nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    position: relative;
+    background-image: linear-gradient($nav-color-gradient),
+      image-set(url('../../../../assets/photos/hero-image.jpg'));
+    background-position: top center;
+    background-size: cover;
+
+    &_left {
+      display: flex;
+      align-items: center;
+
+      &_links {
+        display: flex;
+        justify-content: flex-start;
+
+        &_li {
+          font-size: 1.5rem;
+          letter-spacing: 0.09em;
+          text-transform: uppercase;
+          align-self: center;
+          margin-right: 10px;
+          padding: 0 0.75rem;
+          text-shadow: $shadow;
+
+          &:active,
+          &:focus,
+          &:hover {
+            cursor: pointer;
+            background: $btn-hover-background;
+            box-shadow: $btn-hover-box-shadow;
+          }
+        }
+      }
+    }
+
+    &_logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      width: fit-content;
+      left: 0;
+      right: 0;
+      padding: 0.5rem;
+      margin: 0 auto;
+
+      &_lotus {
+        filter: drop-shadow($shadow);
+        width: 3rem;
+        height: 3rem;
+      }
+
+      &_text {
+        font-family: 'Cinzel Decorative', cursive;
+        font-weight: bold;
+        font-size: 0.875rem;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: $shadow;
+      }
+    }
+    &_right {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-right: 1rem;
+    }
+  }
+}
+
+#cart_counter {
+  background: rgba(255, 255, 255, 0.85);
+  color: rgb(35, 35, 35);
+  font-weight: bold;
+  text-align: center;
+  border: 0.5px solid rgb(43, 43, 43);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  margin-bottom: 0.5rem;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.cart_header {
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient($nav-color-gradient);
+}
+
+.home_header {
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient($nav-color-gradient);
+
+  & .header_nav_logo {
+    visibility: hidden;
+  }
+}
+
+// Mobile nav
+
+#header_mobilenav {
+  display: none;
+
+  &_menu {
+    overflow: hidden;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(45, 45, 45, 0.7),
+      rgba(45, 45, 45, 0.9)
+    );
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    padding: 1.5rem 2rem;
+    display: none;
+    z-index: 100;
+
+    &.visible {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &_home {
+      font-size: 1.5rem;
+      letter-spacing: $headers-letter-spacing;
+      text-transform: uppercase;
+      text-shadow: $shadow;
+      width: 100%;
+      padding: 0.5rem;
+      border-bottom: 0.5px solid white;
+      border-top: 0.5px solid white;
+
+      &:active,
+      &:focus,
+      &:hover {
+        cursor: pointer;
+        background: $btn-hover-background;
+        box-shadow: $btn-hover-box-shadow;
+      }
+    }
+
+    &_links {
+      display: flex;
+      flex-direction: column;
+
+      & > li {
+        width: 100%;
+        padding: 0.5rem;
+        border-bottom: 0.5px solid white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #header_mobilenav {
+    display: block;
+  }
+
+  .header_nav_left {
+    &_home,
+    &_links {
+      display: none;
+    }
+  }
+}

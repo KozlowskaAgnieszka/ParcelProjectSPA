@@ -1,0 +1,51 @@
+$shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+$hero-font-color: white;
+
+.home {
+  &_hero {
+    height: 100vh;
+    background-image: url('../../../../assets/photos/hero-image.jpg');
+    background-position: center;
+    background-size: cover;
+
+    &_content {
+      text-align: center;
+      padding-top: 15vh;
+
+      &_lotus {
+        height: 13rem;
+        width: 13rem;
+        filter: drop-shadow($shadow);
+      }
+
+      &_text {
+        color: $hero-font-color;
+        font-family: 'Cinzel Decorative', cursive;
+        font-weight: bold;
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-shadow: $shadow;
+      }
+    }
+  }
+
+  &_callendar {
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 1px solid white;
+    border-radius: 0.375rem;
+    box-shadow: $shadow;
+    color: $hero-font-color;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.4rem;
+    font-family: 'Poppins', 'Arial', sans-serif;
+  }
+
+  &_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+}

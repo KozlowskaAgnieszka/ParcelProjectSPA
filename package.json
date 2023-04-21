@@ -1,0 +1,23 @@
+{
+  "name": "project-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:app": "parcel src/index.html",
+    "start:db": "json-server --watch src/database/database.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.8.3",
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "json-server": "^0.17.3",
+    "litepicker": "^2.0.12"
+  }
+}

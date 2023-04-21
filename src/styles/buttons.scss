@@ -1,0 +1,159 @@
+// Navigation buttons
+#home-btn,
+#cart-btn,
+#menu-btn {
+  filter: invert(100%) sepia(1%) saturate(32%) hue-rotate(288deg)
+    brightness(110%) contrast(98%) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.7));
+  margin: 0.3rem;
+  padding: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+
+  &:active,
+  &:focus,
+  &:hover {
+    filter: invert(100%) sepia(1%) saturate(32%) hue-rotate(288deg)
+      brightness(110%) contrast(98%)
+      drop-shadow(0 0 8px rgba(163, 163, 163, 0.9));
+    cursor: pointer;
+  }
+}
+
+#cart-btn {
+  position: relative;
+}
+
+#logout-btn {
+  color: white;
+  letter-spacing: 0.08em;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  display: none;
+
+  &:hover {
+    cursor: pointer;
+    background: rgba(163, 163, 163, 0.2);
+    box-shadow: 0 0 8px rgba(163, 163, 163, 0.7);
+  }
+
+  &.visible {
+    display: block;
+  }
+}
+
+// Home buttons
+#book-btn,
+#show-log-window-btn {
+  color: white;
+  letter-spacing: 0.09em;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 0.375rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    box-shadow: 0 0 12px rgba(163, 163, 163, 0.4);
+    cursor: pointer;
+  }
+}
+
+#book-btn {
+  background-color: rgba(101, 136, 10, 0.75);
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+#show-log-window-btn {
+  background-color: rgba(50, 50, 50, 0.75);
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  display: block;
+
+  &.hide {
+    display: none;
+  }
+}
+
+#log-window-btn {
+  color: white;
+  background-color: rgb(101, 136, 10);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  border-width: 0;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 0.75rem;
+
+  &:hover {
+    background-color: rgba(101, 136, 10, 0.9);
+    cursor: pointer;
+  }
+}
+
+// RoomList, RoomDetail & Treatment buttons
+.read-more-btn,
+.add-to-cart-btn {
+  color: white;
+  letter-spacing: 0.05em;
+  text-align: center;
+  border-width: 0;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 0.75rem;
+}
+
+.read-more-btn {
+  background-color: rgba(50, 50, 50, 0.6);
+
+  &:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+    cursor: pointer;
+  }
+}
+
+.add-to-cart-btn {
+  background-color: rgb(101, 136, 10);
+
+  &:hover {
+    background-color: rgba(101, 136, 10, 0.9);
+    cursor: pointer;
+  }
+}
+
+// RoomDetails buttons
+#back-icon {
+  width: 3rem;
+  height: 3rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// Cart buttons
+#delete-btn {
+  filter: invert(100%) sepia(1%) saturate(32%) hue-rotate(288deg)
+    brightness(110%) contrast(98%) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.7));
+  margin: 0.3rem;
+  padding: 0.2rem;
+  width: 2rem;
+  height: 2rem;
+
+  &:active,
+  &:focus,
+  &:hover {
+    filter: invert(100%) sepia(1%) saturate(32%) hue-rotate(288deg)
+      brightness(110%) contrast(98%)
+      drop-shadow(0 0 8px rgba(163, 163, 163, 0.9));
+    cursor: pointer;
+  }
+}
