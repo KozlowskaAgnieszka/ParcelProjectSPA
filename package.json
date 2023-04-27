@@ -8,7 +8,7 @@
     "start:db": "json-server --watch src/database/database.json"
   },
   "keywords": [],
-  "author": "",
+  "author": "Agnieszka Kozłowska",
   "license": "ISC",
   "devDependencies": {
     "@parcel/optimizer-data-url": "^2.8.3",
