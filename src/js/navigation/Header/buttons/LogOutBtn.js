@@ -1,4 +1,4 @@
-import { userManager } from "../../../../data-managers/user-manager";
+import { userManager } from '../../../../data-managers/user-manager';
 
 export function LogoutBtn() {
   const button = document.createElement('button');
@@ -10,6 +10,10 @@ export function LogoutBtn() {
   for (const property in buttonAttributes) {
     button.setAttribute(property, buttonAttributes[property]);
   }
+  if (localStorage.getItem('users')) {
+    button.classList.remove('hide');
+  }
+
   const text = 'Log out';
   button.innerText = text;
 

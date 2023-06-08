@@ -7,6 +7,7 @@ export function LogWindowBtn() {
     type: 'button',
     id: 'log-window-btn',
   };
+
   for (const property in buttonAttributes) {
     button.setAttribute(property, buttonAttributes[property]);
   }

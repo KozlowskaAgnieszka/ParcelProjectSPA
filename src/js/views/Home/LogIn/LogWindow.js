@@ -10,8 +10,8 @@ export function LogWindow() {
   <div id="log_backdrop"></div>
   <div class="log_window" id="add-window">
     <div class='log_window_content'>
-    <label for="login">login:</label>
-    <input type="text" id="login" name="login">
+    <label for="login">email:</label>
+    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="login" name="login" required>
     <label for="password">password:</label>
     <input type="password" id="password" name="password">
     </div>

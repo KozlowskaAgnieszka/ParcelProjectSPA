@@ -4,9 +4,15 @@ export function ShowLogWindowBtn() {
     type: 'button',
     id: 'show-log-window-btn',
   };
+
   for (const property in buttonAttributes) {
     button.setAttribute(property, buttonAttributes[property]);
   }
+
+  if (localStorage.getItem('users')) {
+    button.classList.add('hide');
+  }
+
   const text = 'Log in';
   button.innerText = text;
 
