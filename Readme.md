@@ -1,4 +1,4 @@
-Final project for postgraduate studies (Frontend Development with React at Kożmiński University) consisting in creating a ### Single Page Application.
+Final project for postgraduate studies (Frontend Development with React at Kożmiński University) consisting in creating a Single Page Application.
 
 ### Project specifications:
 - The application should allow you to select arrival and departure dates and book a room
