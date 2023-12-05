@@ -1,5 +1,5 @@
 Get ready for the grand finale of my postgrad studies in 
-## Frontend Development with React at Kożmiński University: 
+# Frontend Development with React at Kożmiński University: 
 ### a Single Page Application that'll blow your socks off!
 
 Here's what I've whipped up: You can book a room, add treatments to your cart, and check out your order summary all in one place. And, of course, I've got your back with a secure user account and authentication.
