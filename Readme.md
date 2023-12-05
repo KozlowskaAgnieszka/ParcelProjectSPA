@@ -1,20 +1,8 @@
-Final project for postgraduate studies (Frontend Development with React at Kożmiński University) consisting in creating a Single Page Application.
+Get ready for the grand finale of my postgrad studies in **Frontend Development with React at Kożmiński University**: 
+#### a Single Page Application that'll blow your socks off!
 
-### Project specifications:
-- The application should allow to select check-in and check-out dates and book a room
-- Adding treatments to cart
-- Order summary
-- Creating user account & authentication
+Here's what I've whipped up: You can book a room, add treatments to your cart, and check out your order summary all in one place. And, of course, I've got your back with a secure user account and authentication.
 
-### Technologies and libraries:
-- HTML
-- Sass
-- JavaScript
-- Parcel JS
-- Litepicker 
+Here are the tech goodies I've used to bring this to life: **HTML, Sass, JavaScript, Parcel JS, and Litepicker**. Oh yeah!
 
-### ToDo's
-- Storing data in an external database instead of Local Storage.
-- Using sessions for user authentication.
-- Increasing security by hashing passwords.
-- Input validation.
+But wait, there's more! Here's what's on my to-do list, because I never stop improving: switch over to an external database, use sessions for authentication, increase password security with some hashing magic, and add input validation. Watch this space!
